@@ -11,6 +11,7 @@ test('Calculate impact for HDD storage', () => {
     };
 
     const result: ImpactResult = storageModel.calculateImpact(storageData);
+    console.log('HDD Storage Result:', result);
     expect(result.energyConsumptionWh).toBe(130); // 100 TB * 0.65 Wh/TB * 2
     expect(result.co2EmissionsKg).toBeCloseTo(0.03263); // 130 Wh / 1000 * 0.251
 });
@@ -24,7 +25,7 @@ test('Calculate impact for SSD storage', () => {
     };
 
     const result: ImpactResult = storageModel.calculateImpact(storageData);
+    console.log('SSD Storage Result:', result);
     expect(result.energyConsumptionWh).toBe(240); // 100 TB * 1.2 Wh/TB * 2
     expect(result.co2EmissionsKg).toBeCloseTo(0.06024); // 240 Wh / 1000 * 0.251
 });
-

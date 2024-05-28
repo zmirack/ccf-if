@@ -1,4 +1,3 @@
-# exporter/storage_exporter.py
 from prometheus_client import start_http_server, Gauge
 import random
 import time
@@ -17,3 +16,4 @@ def collect_metrics():
 if __name__ == '__main__':
     start_http_server(8000)
     collect_metrics()
+

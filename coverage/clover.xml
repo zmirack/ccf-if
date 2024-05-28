@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1716902966503" clover="3.2.0">
+  <project timestamp="1716902966503" name="All files">
+    <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1" elements="10" coveredelements="10" complexity="0" loc="7" ncloc="7" packages="1" files="1" classes="1"/>
+    <file name="index.ts" path="D:\New folder\ccf-storage-computation\src\lib\storage-model\index.ts">
+      <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <line num="6" count="2" type="stmt"/>
+      <line num="7" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="10" count="2" type="stmt"/>
+      <line num="13" count="2" type="stmt"/>
+      <line num="16" count="2" type="stmt"/>
+      <line num="18" count="2" type="stmt"/>
+      <line num="25" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
